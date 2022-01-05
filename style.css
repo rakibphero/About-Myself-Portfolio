@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h1 span{
+    color: orange;
+    text-align:left;
+}
+section{
+    display: block;
+    margin-bottom: 150px;
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+div{
+    display: block;
+}
+.half-width img{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: initial;
+    border-image: linear-gradient(
+180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.experience-area div{
+    box-shadow: 2px 5px 20px grey;
+    height: 50%;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(
+180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.experience-area h3{
+    color: orange;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: initial;
+    border-image: linear-gradient(
+180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.education-area div{
+    box-shadow: 2px 5px 20px grey;
+    height: 60%;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.education-area h3{
+    color: orange;
+}
+footer p{
+    text-align: center;
+}
